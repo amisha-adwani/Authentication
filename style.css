@@ -1,0 +1,35 @@
+
+.container{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+/* .log{
+  padding:90px;
+} */
+
+h1{
+ font-size: 60px;
+}
+
+body{
+    background: linear-gradient(281deg, #f700ff, #518ea2);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    10%{background-position:0% 38%}
+    50%{background-position:50% 50%}
+    10%{background-position:0% 38%}
+}
+@keyframes AnimationName {
+    10%{background-position:0% 38%}
+    50%{background-position:50% 50%}
+    10%{background-position:0% 38%}
+}
+#button1{
+    
+}

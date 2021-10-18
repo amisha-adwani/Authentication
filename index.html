@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1> WELCOME</h1>
+    <div id="login" class='log'>
+      <div class="ui big form">
+        <div class="seven wide field">
+          <div class="field">
+            <label>Username</label>
+            <input type="text" placeholder="Username">
+          </div>
+          <div class="field">
+            <label>Password</label>
+            <input type="password" placeholder="Password">
+          </div>
+        </div>
+        <button class="ui primary button">
+          Log In
+        </button>
+        <br>
+        <br>
+        <div id="btn1" class='button'>
+          <div class="ui animated button" tabindex="0" onclick="onClick()">
+            <div class="visible content">Sign Up</div>
+            <div class="hidden content">
+              <i class="right arrow icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="signup" class='sign'>
+      <div class="ui big form">
+        <div class="fields">
+          <div class="five  wide field">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name">
+          </div>
+          <div class="five  wide field">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="five wide field">
+            <label>Email</label>
+            <input type="text" placeholder="Email">
+          </div>
+        </div>
+        
+        <div class="fields">
+          <div class="five wide field">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password">
+          </div>
+          <div class="five wide field">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Re-enter Password">
+          </div>
+        </div>
+        <button class="ui primary button">
+          Sign Up
+        </button>
+        <br>
+        <br>
+        <div id='btn1' class="ui animated button" tabindex="0" onclick="onClick()">
+          <div class="visible content">Log In</div>
+          <div class="hidden content">
+            <i class="left arrow icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
